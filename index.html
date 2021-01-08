@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Grid</title>
+</head>
+
+<body>
+    <div class="buttons">
+        <div id="column">
+            <button class="button column-btn" id="add-column">Add Column</button>
+            <button class="button column-btn" id="remove-column">Remove Column</button>
+        </div>
+        <div id="all">
+            <button class="button fill-btn" id = "fill-all">Fill All</button>
+            <button class="button fill-btn" id = "fill-all-uncolored">Fill All Uncolored</button>
+            <button class="button fill-btn" id = "clear-all">Clear All</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn button">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="#" id = "red">Red</a>
+                <a href="#" id = "blue">Blue</a>
+                <a href="#" id = "green">Green</a>
+            </div>
+        </div>
+        <div id="row">
+            <button class="button row-btn" id="add-row">Add Row</button>
+            <button class="button row-btn" id ="remove-row">Remove Row</button>
+        </div>
+    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td class="cube"></td>
+            </tr>
+            <tr>
+                <td class="cube"></td>
+            </tr>
+            <tr>
+                <td class="cube"></td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Selected Color:<span class = "red">Red</span></h1>
+    <script src="script.js"></script>
+</body>
+
+</html>
